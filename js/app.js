@@ -3,6 +3,7 @@ if (typeof window.location.origin === "undefined") {
     window.location.origin = window.location.protocol + "//" + window.location.host;
 }
 
+
 // Utility (helper) functions
 var utils = {
 
@@ -16,7 +17,7 @@ var utils = {
 
 
         // Empty the container and append new content
-        jQuery("#page-container").empty();
+       jQuery("#page-container").empty();
 
         // Empty the container and append new content
         jQuery("#page-container").append(doT.render(templateId, _data));
@@ -47,7 +48,7 @@ var utils = {
     // }
 };
 
-
+var _bLazy;
 /**
  *  Router - Handles routing and rendering for the order pages
  *
@@ -60,6 +61,7 @@ var router = {
 
     // An object of all the routes
     routes: {},
+
     init: function () {
         console.log('router was created...');
         this.bindEvents();
@@ -68,6 +70,7 @@ var router = {
         // This make the render function look for the route called "" (empty string)
         // and call it"s function
         jQuery(window).trigger("hashchange");
+
     },
     bindEvents: function () {
 
@@ -99,19 +102,24 @@ var router = {
         // by key name
         if (this.routes[keyName]) {
             this.routes[keyName](url, function () {
-                _page_reload();
-                // var bLazy = new Blazy({
-                //     selector: '.lazy',
-                //     offset: 100,
-                //     success: function (ele) {
-                //         // Image has loaded
-                //         // Do your business here
-                //         //console.log(ele);
-                //     }
-                // });
-            });
-
-            //LazyLoad.js(['./js/streamium.min.js', './js/s3bubble.min.js']);
+		console.log('after route:' + keyName);
+	
+		LazyLoad.js(['./js/streamium.js', './js/s3bubble.js'], function(){
+		    _page_reload();
+		    setTimeout(function(){
+			if(window._bLazy) window._bLazy.revalidate();
+			else {
+			    window._bLazy = new Blazy({
+				selector: '.lazy',
+				//			offset: 100,
+				success: function (ele) {
+//				    console.log(ele);
+				}
+			    })
+			}
+		    },1000);
+		})
+	    })
             // Render the error page if the 
             // keyword is not found in routes.
         } else {
