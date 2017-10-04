@@ -1,0 +1,606 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+
+	<!-- Meta Data -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<!-- Wordpress Scripts -->
+	<title>Streamium - Movie Trailer WordPress Theme</title>
+
+
+	<link rel='stylesheet' id='streamium-styles-css'  href='./css/style.css?ver=4.8.2' type='text/css' media='all' />
+	<link rel='stylesheet' id='streamium-production-css'  href='./css/streamium.min.css?ver=17' type='text/css' media='all' />
+	<link rel='stylesheet' id='streamium-s3bubble-cdn-css'  href='./css/s3bubble.min.css?ver=17' type='text/css' media='all' />
+
+	<script type='text/javascript' src='./js/jquery.js?ver=1.12.4'></script>
+	<script type='text/javascript' src='./js/jquery-migrate.min.js?ver=1.4.1'></script>
+	<script type='text/javascript' src='./js/doT.min.js'></script>
+	<!--Customizer CSS-->
+	<style type="text/css">
+         @import url('https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic&subset=latin');
+         html, body {
+             font-family: 'Lato', sans-serif !important;
+         }
+
+         /* Theme colors */
+         .archive, .home, .search, .single { background-color:#0a0a0a !important; }           .carousels .tile_inner { border-color:#0a0a0a !important; }           .video-header h3, .see-all, .slick-arrow, h4.series-watched-episode-title { color:#f2f2f2  !important; }
+         .tile_inner { padding-bottom:56.25 !important; }
+         /* link and background colors */
+         a, .page a, a:focus, a:hover, .cd-main-header .cd-logo, .play-icon-wrap i, .cd-primary-nav .cd-secondary-nav a:hover, .cd-primary-nav>li>a:hover, .cd-primary-nav .cd-nav-gallery .cd-nav-item h3, .cd-primary-nav .cd-nav-icons .cd-nav-item h3, .woocommerce-message:before, .woocommerce-info::before, .carousels .overlay .overlay-meta .top-meta-watched, .static-row .overlay .overlay-meta .top-meta-watched { color:#ef2930; }
+         #place_order, .pagination a:hover, .pagination .current, .slick-dots li.slick-active button, .progress-bar, .button, .cd-overlay, .has-children > a:hover::before, .has-children > a:hover::after, .go-back a:hover::before, .go-back a:hover::after, #submit, #place_order, .checkout-button, .woocommerce-thankyou-order-received, .add_to_cart_button, .confirm, .streamium-btns, .streamium-extra-meta { background-color:#ef2930 !important; }
+         .synopis-inner .content { font-size:1.5vw !important; }
+         
+         .woocommerce-message, .woocommerce-info { border-top-color:#ef2930 !important; }
+         .streamium-list-reviews { background: #000 !important;}
+         .streamium-list-reviews:hover { background: #fff !important; color: #000;}
+
+	</style>
+	
+    </head>
+    <body>
+    <div class="home blog">
+
+	<header class="cd-main-header fixed">
+
+	    
+	    <a class="cd-logo" href="http://streamiumtheme.com/">Streamium</a>
+
+	    
+	    <ul class="cd-header-buttons">
+		<li><a class="cd-search-trigger" href="#cd-search">Search<span></span></a></li>
+		<li><a class="cd-nav-trigger" href="#cd-primary-nav">Menu<span></span></a></li>
+	    </ul> <!-- cd-header-buttons -->
+	    <div id="cd-search" class="cd-search">
+		<form method="get" action="http://streamiumtheme.com/" role="search">
+		    <input type="search" name="s" placeholder="Search...">
+		</form>
+	    </div>		
+	</header>
+
+	<main class="cd-main-content">
+
+	    <section class="streamium-slider">
+		
+		
+		<div>
+		    
+		    <div id="streamium-featured-background-1226" class="s3bubble streamium-featured-background" data-setup='{"codes": "Pzwz62615","source":{"poster":"https://s3.amazonaws.com/s3bubble-cdn/theme-images/streamium-video-blank.png"},"options":{"background":true,"muted":true,"loop":true,"autoplay":true,"controls":false,"vpaid":""},"meta":{"skipButtons":false,"showSocial":false,"backButton":false,"subTitle": "","title": "","para": ""}}'></div>
+
+		    <article class="content-overlay">
+			<div class="content-overlay-grad"></div>
+			<div class="container-fluid rel">
+			    <div class="row rel">
+				<div class="col-sm-5 col-xs-6 rel">
+				    <div class="synopis-outer">
+					<div class="synopis-middle">
+					    <div class="synopis-inner">
+						<h2>The Osiris Child (2016) Trailer</h2>
+						<div class="synopis content hidden-xs">
+						    When a dangerous outbreak threatens to destroy everyone living on a newly colonized planet, Lt. <a class="show-more-content" data-id="1226">read more</a>												<ul>
+						    <li class="synopis-meta-spacer">Cast: <a href="/?s=Daniel MacPhers">Daniel MacPhers</a>, <a href="/?s=Grace Huang">Grace Huang</a>, <a href="/?s=Isabel Lucas">Isabel Lucas</a>, <a href="/?s=Kellan Lutz">Kellan Lutz</a>, <a href="/?s=Teagan Croft">Teagan Croft</a></li><li class="synopis-meta-spacer">Movies: <a href="http://streamiumtheme.com/movies/cult-films/">Cult Films</a>, <a href="http://streamiumtheme.com/movies/horror/">Horror</a>, <a href="http://streamiumtheme.com/movies/sci-fi/">Sci-Fi</a></li><li class="synopis-meta-spacer">Released: <a href="/?s=all&date=2017/10/01">October 1, 2017</a></li>												</ul>
+						</div>
+						
+						<div class="synopis-premium-meta hidden-xs">
+						    <a id="like-count-1226" class="streamium-review-like-btn streamium-btns streamium-reviews-btns" data-toggle="tooltip" title="CLICK TO LIKE!" data-id="1226" data-nonce="e6a361ecda">	0 Likes													</a>
+						    <a class="streamium-list-reviews streamium-btns streamium-reviews-btns" data-id="1226" data-nonce="e6a361ecda">Read reviews</a>
+						</div>
+					    </div>
+					</div>
+				    </div>
+				</div>
+				<div class="col-sm-7 col-xs-6 rel">
+				    <a class="play-icon-wrap" href="http://streamiumtheme.com/movie/osiris-child-2016-trailer/">
+					<div class="play-icon-wrap-rel">
+					    <div class="play-icon-wrap-rel-ring"></div>
+					    <span class="play-icon-wrap-rel-play">
+						<i class="fa fa-play fa-3x" aria-hidden="true"></i>
+					    </span>
+					</div>
+				    </a>
+				    <a class="synopis-video-trailer streamium-btns hidden-xs" href="http://streamiumtheme.com/movie/osiris-child-2016-trailer/?trailer=true">Watch Trailer</a>
+				</div>
+			    </div>
+			</div>
+		    </article><!--/.content-overlay-->
+
+		</div>
+
+		
+		
+		
+		<div style="background-image: url(http://streamiumtheme.com/wp-content/uploads/2017/09/THE-FOREIGNER-banner-990x557-960x540.jpg);">
+
+		    <article class="content-overlay">
+			<div class="content-overlay-grad"></div>
+			<div class="container-fluid rel">
+			    <div class="row rel">
+				<div class="col-sm-5 col-xs-5 rel">
+				    <div class="synopis-outer">
+					<div class="synopis-middle">
+					    <div class="synopis-inner">
+						<h2>The Foreigner Trailer</h2>
+						<div class="synopis content">
+						    Quan is a humble London businessman whose long-buried past erupts in a revenge-fueled vendetta when <a class="show-more-content" data-id="1212">read more</a>												<ul class="hidden-xs">
+						    <li class="synopis-meta-spacer">Cast: <a href="/?s=Jackie Chan">Jackie Chan</a>, <a href="/?s=Katie Leung">Katie Leung</a>, <a href="/?s=Pierce Brosnan">Pierce Brosnan</a></li><li class="synopis-meta-spacer">Movies: <a href="http://streamiumtheme.com/movies/action/">Action</a>, <a href="http://streamiumtheme.com/movies/crime-films/">Crime Films</a>, <a href="http://streamiumtheme.com/movies/cult-films/">Cult Films</a>, <a href="http://streamiumtheme.com/movies/dramas/">Dramas</a></li><li class="synopis-meta-spacer">Released: <a href="/?s=all&date=2017/09/28">September 28, 2017</a></li>												</ul>
+						</div>
+						
+						<div class="synopis-premium-meta hidden-xs">
+						    <a id="like-count-1212" class="streamium-review-like-btn streamium-btns streamium-reviews-btns" data-toggle="tooltip" title="CLICK TO LIKE!" data-id="1212" data-nonce="e6a361ecda">	0 Likes													</a>
+						    <a class="streamium-list-reviews streamium-btns streamium-reviews-btns" data-id="1212" data-nonce="e6a361ecda">Read reviews</a>
+						</div>
+					    </div>
+					</div>
+				    </div>
+				</div>
+				<div class="col-sm-7 col-xs-7 rel">
+				    <a class="play-icon-wrap" href="http://streamiumtheme.com/movie/the-foreigner-trailer/">
+					<div class="play-icon-wrap-rel">
+					    <div class="play-icon-wrap-rel-ring"></div>
+					    <span class="play-icon-wrap-rel-play">
+						<i class="fa fa-play fa-3x" aria-hidden="true"></i>
+					    </span>
+					</div>
+				    </a>
+				    <a class="synopis-video-trailer streamium-btns hidden-xs" href="http://streamiumtheme.com/movie/the-foreigner-trailer/?trailer=true">Watch Trailer</a>
+				</div>
+			    </div>
+			</div>
+		    </article><!--/.content-overlay-->
+
+		</div>
+
+		
+		
+		
+		<div style="background-image: url(http://streamiumtheme.com/wp-content/uploads/2017/07/Detroit-movie-banner-961x540.jpg);">
+
+		    <article class="content-overlay">
+			<div class="content-overlay-grad"></div>
+			<div class="container-fluid rel">
+			    <div class="row rel">
+				<div class="col-sm-5 col-xs-5 rel">
+				    <div class="synopis-outer">
+					<div class="synopis-middle">
+					    <div class="synopis-inner">
+						<h2>Detroit Movie Trailer</h2>
+						<div class="synopis content">
+						    From the Academy Award winning director of THE HURT LOCKER and ZERO DARK THIRTY, DETROIT <a class="show-more-content" data-id="1138">read more</a>												<ul class="hidden-xs">
+						    <li class="synopis-meta-spacer">Cast: <a href="/?s=Anthony Mackie">Anthony Mackie</a>, <a href="/?s=Jack Reynor">Jack Reynor</a>, <a href="/?s=John Boyega">John Boyega</a>, <a href="/?s=John Krasinski">John Krasinski</a>, <a href="/?s=Will Poulter">Will Poulter</a></li><li class="synopis-meta-spacer">Movies: <a href="http://streamiumtheme.com/movies/action/">Action</a>, <a href="http://streamiumtheme.com/movies/crime-films/">Crime Films</a>, <a href="http://streamiumtheme.com/movies/thriller/">Thriller</a></li><li class="synopis-meta-spacer">Released: <a href="/?s=all&date=2017/07/31">July 31, 2017</a></li>												</ul>
+						</div>
+						
+						<div class="synopis-premium-meta hidden-xs">
+						    <a id="like-count-1138" class="streamium-review-like-btn streamium-btns streamium-reviews-btns" data-toggle="tooltip" title="CLICK TO LIKE!" data-id="1138" data-nonce="e6a361ecda">	0 Likes													</a>
+						    <a class="streamium-list-reviews streamium-btns streamium-reviews-btns" data-id="1138" data-nonce="e6a361ecda">Read reviews</a>
+						</div>
+					    </div>
+					</div>
+				    </div>
+				</div>
+				<div class="col-sm-7 col-xs-7 rel">
+				    <a class="play-icon-wrap" href="http://streamiumtheme.com/movie/detroit-movie-trailer/">
+					<div class="play-icon-wrap-rel">
+					    <div class="play-icon-wrap-rel-ring"></div>
+					    <span class="play-icon-wrap-rel-play">
+						<i class="fa fa-play fa-3x" aria-hidden="true"></i>
+					    </span>
+					</div>
+				    </a>
+				</div>
+			    </div>
+			</div>
+		    </article><!--/.content-overlay-->
+
+		</div>
+
+		
+		
+		
+		<div style="background-image: url(http://streamiumtheme.com/wp-content/uploads/2017/06/maxresdefault-1-960x540.jpg);">
+
+		    <article class="content-overlay">
+			<div class="content-overlay-grad"></div>
+			<div class="container-fluid rel">
+			    <div class="row rel">
+				<div class="col-sm-5 col-xs-5 rel">
+				    <div class="synopis-outer">
+					<div class="synopis-middle">
+					    <div class="synopis-inner">
+						<h2>Wonder Woman</h2>
+						<div class="synopis content">
+						    Before she was Wonder Woman (Gal Gadot), she was Diana, princess of the Amazons, trained <a class="show-more-content" data-id="928">read more</a>												<ul class="hidden-xs">
+						    <li class="synopis-meta-spacer">Cast: <a href="/?s=Gal Gadot">Gal Gadot</a></li><li class="synopis-meta-spacer">Movies: <a href="http://streamiumtheme.com/movies/action/">Action</a></li><li class="synopis-meta-spacer">Released: <a href="/?s=all&date=2017/06/12">June 12, 2017</a></li>												</ul>
+						</div>
+						
+						<div class="synopis-premium-meta hidden-xs">
+						    <a id="like-count-928" class="streamium-review-like-btn streamium-btns streamium-reviews-btns" data-toggle="tooltip" title="CLICK TO LIKE!" data-id="928" data-nonce="e6a361ecda">	0 Likes													</a>
+						    <a class="streamium-list-reviews streamium-btns streamium-reviews-btns" data-id="928" data-nonce="e6a361ecda">Read reviews</a>
+						</div>
+					    </div>
+					</div>
+				    </div>
+				</div>
+				<div class="col-sm-7 col-xs-7 rel">
+				    <a class="play-icon-wrap" href="http://streamiumtheme.com/movie/wonder-woman/">
+					<div class="play-icon-wrap-rel">
+					    <div class="play-icon-wrap-rel-ring"></div>
+					    <span class="play-icon-wrap-rel-play">
+						<i class="fa fa-play fa-3x" aria-hidden="true"></i>
+					    </span>
+					</div>
+				    </a>
+				</div>
+			    </div>
+			</div>
+		    </article><!--/.content-overlay-->
+
+		</div>
+
+		
+		
+		
+		<div style="background-image: url(http://streamiumtheme.com/wp-content/uploads/2017/04/3BB1CD2D-AAAC-4B0C-8195-FD6DFBBB8230_mw1024_mh1024_r1_s-960x540.jpg);">
+
+		    <article class="content-overlay">
+			<div class="content-overlay-grad"></div>
+			<div class="container-fluid rel">
+			    <div class="row rel">
+				<div class="col-sm-5 col-xs-5 rel">
+				    <div class="synopis-outer">
+					<div class="synopis-middle">
+					    <div class="synopis-inner">
+						<h2>Last Men In Aleppo Trailer</h2>
+						<div class="synopis content">
+						    After five years of war in Syria, Aleppo's remaining residents prepare themselves for a siege. <a class="show-more-content" data-id="780">read more</a>												<ul class="hidden-xs">
+						    <li class="synopis-meta-spacer">Cast: <a href="/?s=brad pitt">Brad Pitt</a>, <a href="/?s=cameron diaz">Cameron Diaz</a>, <a href="/?s=samantha bullock">Samantha Bullock</a>, <a href="/?s=will smith">Will Smith</a></li><li class="synopis-meta-spacer">Movies: <a href="http://streamiumtheme.com/movies/action/">Action</a>, <a href="http://streamiumtheme.com/movies/comedies/">Comedies</a>, <a href="http://streamiumtheme.com/movies/documentaries/">Documentaries</a></li><li class="synopis-meta-spacer">Released: <a href="/?s=all&date=2017/04/19">April 19, 2017</a></li>												</ul>
+						</div>
+						
+						<div class="synopis-premium-meta hidden-xs">
+						    <a id="like-count-780" class="streamium-review-like-btn streamium-btns streamium-reviews-btns" data-toggle="tooltip" title="CLICK TO LIKE!" data-id="780" data-nonce="e6a361ecda">	0 Likes													</a>
+						    <a class="streamium-list-reviews streamium-btns streamium-reviews-btns" data-id="780" data-nonce="e6a361ecda">Read reviews</a>
+						</div>
+					    </div>
+					</div>
+				    </div>
+				</div>
+				<div class="col-sm-7 col-xs-7 rel">
+				    <a class="play-icon-wrap" href="http://streamiumtheme.com/movie/last-men-in-aleppo-trailer/">
+					<div class="play-icon-wrap-rel">
+					    <div class="play-icon-wrap-rel-ring"></div>
+					    <span class="play-icon-wrap-rel-play">
+						<i class="fa fa-play fa-3x" aria-hidden="true"></i>
+					    </span>
+					</div>
+				    </a>
+				    <a class="synopis-video-trailer streamium-btns hidden-xs" href="http://streamiumtheme.com/movie/last-men-in-aleppo-trailer/?trailer=true">Watch Trailer</a>
+				</div>
+			    </div>
+			</div>
+		    </article><!--/.content-overlay-->
+
+		</div>
+
+		
+		
+		
+		<div style="background-image: url(http://streamiumtheme.com/wp-content/uploads/2017/05/american-hustle-poster-810x540.jpg);">
+
+		    <article class="content-overlay">
+			<div class="content-overlay-grad"></div>
+			<div class="container-fluid rel">
+			    <div class="row rel">
+				<div class="col-sm-5 col-xs-5 rel">
+				    <div class="synopis-outer">
+					<div class="synopis-middle">
+					    <div class="synopis-inner">
+						<h2>YouTube Video Example</h2>
+						<div class="synopis content">
+						    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. <a class="show-more-content" data-id="856">read more</a>												<ul class="hidden-xs">
+						    <li class="synopis-meta-spacer">Cast: <a href="/?s=Youtube">Youtube</a></li><li class="synopis-meta-spacer">Programs: <a href="http://streamiumtheme.com/programs/jon/">Jon</a>, <a href="http://streamiumtheme.com/programs/uk-tv/">UK TV</a>, <a href="http://streamiumtheme.com/programs/usa-tv/">USA TV</a></li><li class="synopis-meta-spacer">Released: <a href="/?s=all&date=2017/05/25">May 25, 2017</a></li>												</ul>
+						</div>
+						
+						<div class="synopis-premium-meta hidden-xs">
+						    <a id="like-count-856" class="streamium-review-like-btn streamium-btns streamium-reviews-btns" data-toggle="tooltip" title="CLICK TO LIKE!" data-id="856" data-nonce="e6a361ecda">	0 Likes													</a>
+						    <a class="streamium-list-reviews streamium-btns streamium-reviews-btns" data-id="856" data-nonce="e6a361ecda">Read reviews</a>
+						</div>
+					    </div>
+					</div>
+				    </div>
+				</div>
+				<div class="col-sm-7 col-xs-7 rel">
+				    <a class="play-icon-wrap" href="http://streamiumtheme.com/tv/youtube-video-example/">
+					<div class="play-icon-wrap-rel">
+					    <div class="play-icon-wrap-rel-ring"></div>
+					    <span class="play-icon-wrap-rel-play">
+						<i class="fa fa-play fa-3x" aria-hidden="true"></i>
+					    </span>
+					</div>
+				    </a>
+				</div>
+			    </div>
+			</div>
+		    </article><!--/.content-overlay-->
+
+		</div>
+
+		
+	    </section><!--/.streamium-slider-->
+	    <div id="recently-watched"></div>
+
+	    <div id="custom-watched"></div>
+
+	    <div id="home-watched"></div>
+
+	    <div class="main-spacer"></div>
+	    
+	</main><!--/.main content-->
+
+	<footer class="footer">
+	    <div class="container-fluid">
+		<div class="row">
+		    <div class="col-sm-12">
+			
+			<p class="copyright">Powered by <a href="https://s3bubble.com">S3Bubble.com</a></p>
+
+		    </div><!--/.col-sm-12-->
+		</div><!--/.row-->
+	    </div><!--/.container-->
+	</footer>
+	<div class="cd-overlay"></div>
+
+	<nav class="cd-nav">
+	    <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
+
+		<li id="menu-item-323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-323"><a href="http://streamiumtheme.com/plans/">Plans</a></li>
+		<li id="menu-item-475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="http://streamiumtheme.com/policy/">Policy</a></li>
+		<li id="menu-item-619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-619"><a href="http://streamiumtheme.com/uploader/">Uploader</a></li>
+		<li id="menu-item-1145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1145"><a href="http://streamiumtheme.com/forums/">Forum</a></li>
+		<li><a href="http://streamiumtheme.com/wp-login.php">Login</a></li> 
+		
+		
+		<li class="has-children">
+		    <a href="http://streamiumtheme.com/">Movies</a>
+		    <ul class="cd-secondary-nav is-hidden">
+			<li class="go-back">
+			    <a href="#0">Menu</a>
+			</li>
+			<li class="see-all">
+			    <a href="http://streamiumtheme.com/movie">View All</a>
+			</li>
+
+			
+			<li class="has-children">
+			    
+			    <ul class="is-hidden">
+
+				
+
+				<li class="go-back"><a href="#0">Action</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/action/">Action</a></li>
+
+				
+
+				
+
+				<li class="go-back"><a href="#0">British</a></li>
+				
+				<li class="has-children" id="british">
+				    <a href="#0">British</a>
+
+				    <ul class="is-hidden">
+					<li class="go-back"><a href="#0"></a></li>
+					<li class="see-all"><a href="http://streamiumtheme.com/movies/british/">All British</a></li>
+					<li><a href="http://streamiumtheme.com/movies/british/action-british/">Action</a></li>
+					<li><a href="http://streamiumtheme.com/movies/british/comedy/">Comedy</a></li>
+					<li><a href="http://streamiumtheme.com/movies/british/crime/">Crime</a></li>
+				    </ul>
+				</li>
+
+				
+
+				
+
+				<li class="go-back"><a href="#0">Comedies</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/comedies/">Comedies</a></li>
+
+				
+
+			    </ul>
+			</li>
+			
+			<li class="has-children">
+			    
+			    <ul class="is-hidden">
+
+				
+
+				<li class="go-back"><a href="#0">Crime Films</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/crime-films/">Crime Films</a></li>
+
+				
+
+				
+
+				<li class="go-back"><a href="#0">Cult Films</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/cult-films/">Cult Films</a></li>
+
+				
+
+				
+
+				<li class="go-back"><a href="#0">Documentaries</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/documentaries/">Documentaries</a></li>
+
+				
+
+			    </ul>
+			</li>
+			
+			<li class="has-children">
+			    
+			    <ul class="is-hidden">
+
+				
+
+				<li class="go-back"><a href="#0">Dramas</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/dramas/">Dramas</a></li>
+
+				
+
+				
+
+				<li class="go-back"><a href="#0">Horror</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/horror/">Horror</a></li>
+
+				
+
+				
+
+				<li class="go-back"><a href="#0">Reality</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/reality/">Reality</a></li>
+
+				
+
+			    </ul>
+			</li>
+			
+			<li class="has-children">
+			    
+			    <ul class="is-hidden">
+
+				
+
+				<li class="go-back"><a href="#0">Sci-Fi</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/sci-fi/">Sci-Fi</a></li>
+
+				
+
+				
+
+				<li class="go-back"><a href="#0">Thriller</a></li>
+				
+				<li><a href="http://streamiumtheme.com/movies/thriller/">Thriller</a></li>
+
+				
+
+			    </ul>
+			</li>
+			
+		    </ul>				
+		</li>
+		
+		
+		
+		
+		<li class="has-children">
+		    <a href="http://streamiumtheme.com/">TV Programs</a>
+		    <ul class="cd-secondary-nav is-hidden">
+			<li class="go-back">
+			    <a href="#0">Menu</a>
+			</li>
+			<li class="see-all">
+			    <a href="http://streamiumtheme.com/tv">View All</a>
+			</li>
+
+			
+			<li class="has-children">
+			    
+			    <ul class="is-hidden">
+
+				
+
+				<li class="go-back"><a href="#0">Jon</a></li>
+				
+				<li><a href="http://streamiumtheme.com/programs/jon/">Jon</a></li>
+
+				
+
+			    </ul>
+			</li>
+			
+			<li class="has-children">
+			    
+			    <ul class="is-hidden">
+
+				
+
+				<li class="go-back"><a href="#0">UK TV</a></li>
+				
+				<li><a href="http://streamiumtheme.com/programs/uk-tv/">UK TV</a></li>
+
+				
+
+			    </ul>
+			</li>
+			
+			<li class="has-children">
+			    
+			    <ul class="is-hidden">
+
+				
+
+				<li class="go-back"><a href="#0">USA TV</a></li>
+				
+				<li><a href="http://streamiumtheme.com/programs/usa-tv/">USA TV</a></li>
+
+				
+
+			    </ul>
+			</li>
+			
+			<li class="has-children">
+			    
+			    <ul class="is-hidden">
+
+			    </ul>
+			</li>
+			
+		    </ul>				
+		</li>
+		
+		
+		
+		
+		
+		
+		
+		
+	    </ul> <!-- primary-nav -->
+	</nav> <!-- cd-nav -->
+
+	<div class="streamium-review-panel from-right">
+	    <header class="streamium-review-panel-header">
+		<h1>Reviews</h1>
+		<a href="#0" class="streamium-review-panel-close"><i class="fa fa-times" aria-hidden="true"></i></a>
+	    </header>
+
+	    <div class="streamium-review-panel-container">
+		<div class="streamium-review-panel-content">
+		    
+		</div> <!-- streamium-review-panel-content -->
+	    </div> <!-- streamium-review-panel-container -->
+	</div> <!-- streamium-review-panel -->
+	
+	<script type='text/javascript'>
+
+	 /* <![CDATA[ */
+	 var streamium_object = {"ajax_url":"data","recently_watched_api_nonce":"c5e57fb0cd","custom_api_nonce":"5574dfb302","home_api_nonce":"880999b007","tax_api_nonce":"1f81b0f82f","search_api_nonce":"eb406ad5b3","extra_api_nonce":"1476195816","query":null,"search":[],"is_home":"1","is_archive":"","is_tax":"","is_search":"","tile_count":"6","read_more":"read more"};
+	 /* ]]> */
+	</script>
+	<script type='text/javascript' src='./js/streamium.min.js?ver=17'></script>
+	<script type='text/javascript' src='./js/s3bubble.min.js?ver=17'></script>
+	<script type='text/javascript' src='./js/doT_preload.js'></script>
+    </body>
+</html>
