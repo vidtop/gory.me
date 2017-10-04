@@ -198,6 +198,10 @@ function Streamium() {
                 type: _method,
                 dataType: "json",
                 data: a,
+                crossDomain: true,
+                headers : {
+                    'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
+                },
                 success: function(b) {
                     if (b.error) return void swal({
                         title: "Error",
@@ -1264,6 +1268,10 @@ function _page_reload() {
                         post_id: c,
                         nonce: d
                     },
+                    crossDomain: true,
+                    headers : {
+                        'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
+                    },
                     success: function (b) {
                         if (b.error) return void swal({
                             title: "Error",
@@ -1309,6 +1317,10 @@ function _page_reload() {
                             post_id: c,
                             message: b,
                             nonce: d
+                        },
+                        crossDomain: true,
+                        headers : {
+                            'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
                         },
                         success: function (b) {
                             if (b.error) return void swal({
@@ -1379,6 +1391,10 @@ function _page_reload() {
                                 type: _method,
                                 dataType: "json",
                                 data: _data,
+                                crossDomain: true,
+                                headers : {
+                                    'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
+                                },
                                 success: function (a) {
                                     setTimeout(b, 1e3)
                                 }
@@ -1419,6 +1435,10 @@ function _page_reload() {
                                 url: streamium_object.ajax_url,
                                 type: "post",
                                 dataType: "json",
+                                crossDomain: true,
+                                headers : {
+                                    'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
+                                },
                                 data: {
                                     action: "streamium_create_resume",
                                     percentage: window.percentage ? window.percentage : 0,
@@ -1507,10 +1527,15 @@ function _page_reload() {
                             a("#streamium-uploader span.streamium-uploader-percent").text(c.percent), a("#streamium-uploader span.streamium-uploader-label").html("Started"), a(".streamium-uploader-progressbar").css("width", c.percent + "%"), a("#streamium-uploader span.streamium-uploader-standby").html(c.percent + "%")
                         },
                         FileUploaded: function (b, c) {
-                            b.files.length == b.total.uploaded + b.total.failed && (a("#streamium-uploader span.streamium-uploader-label").html("Uploaded"), a(".streamium-uploader-standby").html("Files successfully uploaded"), a.ajax({
+                            b.files.length == b.total.uploaded + b.total.failed && (a("#streamium-uploader span.streamium-uploader-label").html("Uploaded"), a(".streamium-uploader-standby").html("Files successfully uploaded"),
+                                a.ajax({
                                 url: streamium_object.ajax_url,
                                 type: "post",
                                 dataType: "json",
+                                    crossDomain: true,
+                                    headers : {
+                                        'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
+                                    },
                                 data: {
                                     action: "streamium_user_content_uploader_email",
                                     bucket: streamium_uploader.bucket,

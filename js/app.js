@@ -106,7 +106,7 @@ var router = {
                     success: function (ele) {
                         // Image has loaded
                         // Do your business here
-                        console.log(ele);
+                        //console.log(ele);
                     }
                 });
             });
