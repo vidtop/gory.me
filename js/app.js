@@ -100,15 +100,15 @@ var router = {
         if (this.routes[keyName]) {
             this.routes[keyName](url, function () {
                 _page_reload();
-                var bLazy = new Blazy({
-                    selector: '.lazy',
-                    offset: 100,
-                    success: function (ele) {
-                        // Image has loaded
-                        // Do your business here
-                        //console.log(ele);
-                    }
-                });
+                // var bLazy = new Blazy({
+                //     selector: '.lazy',
+                //     offset: 100,
+                //     success: function (ele) {
+                //         // Image has loaded
+                //         // Do your business here
+                //         //console.log(ele);
+                //     }
+                // });
             });
 
             //LazyLoad.js(['./js/streamium.min.js', './js/s3bubble.min.js']);
