@@ -211,7 +211,7 @@ function Streamium() {
                         confirmButtonText: "Ok, got it!",
                         closeOnConfirm: !0
                     }, function() {});
-		    //b.cat = a.cat;
+		    b.cat = a.cat;
                     var e = c.limitWords(b.content, 30, '<a class="show-more-content" data-id="' + a.post_id + '">' + streamium_object.read_more + "</a>") + b.meta + b.reviews;
                     c.isMobile.any() && (e = c.limitWords(b.content, 8, '<a class="show-more-content" data-id="' + a.post_id + '">' + streamium_object.read_more + "</a>"));
                     var f = "." + b.cat,
