@@ -31,11 +31,16 @@
     // doT.isCache = function(name){
     //     return templates[name]?true:false;
     // }
-    doT.tmpl = function (name, cb) {
-        if (!cache[name])
-            cache[name] = templates[name] && doT.template(templates[name], undefined, {});
-        return cache[name];
-    };
+    // doT.tmpl = function (name, cb) {
+    //     if (!cache[name])
+    // 	    nanoajax.ajax({url: 'views/' + name + '.js'}, function(code, text){
+    // 		if(code == 200) {
+		    
+    // 		}
+    // 	    })
+    //         cache[name] = templates[name] && doT.template(templates[name], undefined, {});
+    //     return cache[name];
+    // };
     /**
      * Render template with provided data.
      */

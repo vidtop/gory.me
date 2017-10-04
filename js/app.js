@@ -14,14 +14,22 @@ var utils = {
         var _data = data || {};
         // var templateScript = jQuery(templateId).html();
         // var template = Handlebars.compile(templateScript);
-
-
-        // Empty the container and append new content
-       jQuery("#page-container").empty();
-
-        // Empty the container and append new content
-        jQuery("#page-container").append(doT.render(templateId, _data));
-        cb();
+	console.log('render:' + templateId);
+	if(!(window.render && window.render[templateId])) {
+	    LazyLoad.js(['views/' + templateId + '.js'], function(){
+		// Empty the container and append new content
+		jQuery("#page-container").empty();
+		// Empty the container and append new content
+		jQuery("#page-container").append(
+		    window.render[templateId](_data));
+		cb();		
+	    });
+	} else {
+	    jQuery("#page-container").empty();
+	    jQuery("#page-container").append(
+		window.render[templateId](_data));
+	    cb();			    
+	}
     },
 
     // // If a hash can not be found in routes
@@ -103,8 +111,7 @@ var router = {
         if (this.routes[keyName]) {
             this.routes[keyName](url, function () {
 		console.log('after route:' + keyName);
-	
-		LazyLoad.js(['./js/streamium.js', './js/s3bubble.js'], function(){
+
 		    _page_reload();
 		    setTimeout(function(){
 			if(window._bLazy) window._bLazy.revalidate();
@@ -118,7 +125,7 @@ var router = {
 			    })
 			}
 		    },1000);
-		})
+//		})
 	    })
             // Render the error page if the 
             // keyword is not found in routes.
@@ -339,7 +346,12 @@ var spaRoutes = {
             "skip": "0",
             "nonce": "e4f6c28114"
         };
-        utils.renderPageTemplate("play", {}, cb);
+        utils.renderPageTemplate("play", {}, function(){
+		LazyLoad.js([
+		    'js/s3bubble.js',
+		//    './js/streamium.js'
+		], cb)
+	});
     },
     '#search': function (url, cb) {
         window.streamium_object = {
@@ -361,14 +373,7 @@ var spaRoutes = {
         };
         utils.renderPageTemplate("search", {}, cb);
     }
-    // "#about": function(url) {
-    //     console.log('about was called...');
-    //     utils.renderPageTemplate("#about-page-template");
-    // },
-    // "#contact": function(url) {
-    //     console.log('contact was called...');
-    //     utils.renderPageTemplate("#contact-page-template");
-    // }
+   
 };
 
 // Create a new instance of the router
