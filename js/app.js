@@ -22,20 +22,20 @@ var utils = {
 		// Empty the container and append new content
 		jQuery("#page-container").append(
 		    window.render[templateId](_data));
-		cb();		
+		cb && cb();		
 	    });
 	} else {
 	    jQuery("#page-container").empty();
 	    jQuery("#page-container").append(
 		window.render[templateId](_data));
-	    cb();			    
+	    cb && cb();			    
 	}
     },
 
     // // If a hash can not be found in routes
     // // then this function gets called to show the 404 error page
-    // pageNotFoundError: function() {
-
+    pageNotFoundError: function() {
+	this.renderPageTemplate("error_404", {});
     //     var data = {
     //         errorMessage: "404 - Page Not Found"
     //     };
@@ -53,7 +53,7 @@ var utils = {
     //         method: "GET",
     //         dataType: "JSON"
     //     });
-    // }
+    }
 };
 
 var _bLazy;
@@ -130,7 +130,7 @@ var router = {
             // Render the error page if the 
             // keyword is not found in routes.
         } else {
-//            utils.pageNotFoundError();
+            utils.pageNotFoundError();
         }
     }
 };
