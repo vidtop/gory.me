@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c13a63e3-1dcc-4703-8b4f-92f67604934c" name="Default" comment="add crossdomain">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/streamium_v2.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/streamium.min.js" afterPath="$PROJECT_DIR$/js/streamium.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/js/streamium.min_v2.js" afterPath="$PROJECT_DIR$/js/streamium_v2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/i.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/s3bubble.min.js" afterPath="$PROJECT_DIR$/js/s3bubble.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/streamium.js" afterPath="$PROJECT_DIR$/js/streamium.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,6 +21,80 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="1648" column="42" lean-forward="false" selection-start-line="1648" selection-start-column="42" selection-end-line="1648" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="streamium.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/streamium.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="202" column="18" lean-forward="true" selection-start-line="199" selection-start-column="14" selection-end-line="202" selection-end-column="18" />
+              <folding>
+                <marker date="1507089356643" expanded="true" signature="5354:5406" ph="..." />
+                <marker date="1507089356643" expanded="true" signature="6887:6939" ph="..." />
+                <marker date="1507089356643" expanded="true" signature="15634:15681" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/s.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="175" column="18" lean-forward="false" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+              <folding>
+                <marker date="1507093468288" expanded="true" signature="5508:5560" ph="..." />
+                <marker date="1507093468288" expanded="true" signature="7042:7094" ph="..." />
+                <marker date="1507093468288" expanded="true" signature="15366:15413" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_v3.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app_v3.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="i.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/i.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="79" column="113" lean-forward="true" selection-start-line="79" selection-start-column="113" selection-end-line="79" selection-end-column="113" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="home_api_post.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/home_api_post.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,137 +129,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recently_watched_api_post.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/recently_watched_api_post.json">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="streamium_v2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/streamium_v2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-              <folding>
-                <marker date="1507085375000" expanded="true" signature="5368:5420" ph="..." />
-                <marker date="1507085375000" expanded="true" signature="6901:6953" ph="..." />
-                <marker date="1507085375000" expanded="true" signature="15646:15693" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="streamium.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/streamium.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
-              <folding>
-                <element signature="e#21148#22066#0" expanded="false" />
-                <element signature="e#22111#30843#0" expanded="false" />
-                <element signature="e#30969#31244#0" expanded="false" />
-                <element signature="e#31279#41352#0" expanded="false" />
-                <element signature="e#41395#46020#0" expanded="false" />
-                <element signature="e#46281#63523#0" expanded="false" />
-                <element signature="e#63559#68181#0" expanded="false" />
-                <element signature="e#68217#71221#0" expanded="false" />
-                <element signature="e#71258#75798#0" expanded="false" />
-                <element signature="e#75834#81538#0" expanded="false" />
-                <element signature="e#81574#86083#0" expanded="false" />
-                <element signature="e#86119#88009#0" expanded="false" />
-                <element signature="e#88030#89328#0" expanded="false" />
-                <element signature="e#89354#90690#0" expanded="false" />
-                <element signature="e#90716#93243#0" expanded="false" />
-                <element signature="e#93269#99211#0" expanded="false" />
-                <element signature="e#99237#103969#0" expanded="false" />
-                <element signature="e#103995#107565#0" expanded="false" />
-                <element signature="e#107591#115742#0" expanded="false" />
-                <element signature="e#115768#129206#0" expanded="false" />
-                <element signature="e#129232#131400#0" expanded="false" />
-                <element signature="e#131426#134901#0" expanded="false" />
-                <element signature="e#134927#137719#0" expanded="false" />
-                <element signature="e#137745#141389#0" expanded="false" />
-                <element signature="e#178157#181566#0" expanded="false" />
-                <element signature="e#181592#181779#0" expanded="false" />
-                <element signature="e#181875#186515#0" expanded="false" />
-                <element signature="e#181906#186461#0" expanded="false" />
-                <marker date="1507084240345" expanded="true" signature="5368:5420" ph="..." />
-                <marker date="1507084240345" expanded="true" signature="6901:6953" ph="..." />
-                <marker date="1507084240345" expanded="true" signature="15476:15523" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="streamium.min_v1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/streamium.min_v1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="1533" column="49" lean-forward="true" selection-start-line="1533" selection-start-column="49" selection-end-line="1533" selection-end-column="49" />
-              <folding>
-                <marker date="1507085375090" expanded="true" signature="5368:5420" ph="..." />
-                <marker date="1507085375090" expanded="true" signature="6901:6953" ph="..." />
-                <marker date="1507085375090" expanded="true" signature="15646:15693" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="926">
-              <caret line="106" column="43" lean-forward="true" selection-start-line="106" selection-start-column="43" selection-end-line="106" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s3bubble.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/s3bubble.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doT_preload.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/doT_preload.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="action.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/search_api_post/action.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1046">
-              <caret line="186" column="8" lean-forward="true" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -198,10 +158,15 @@
       <find>lazy(</find>
       <find>$slider</find>
       <find>$slider =</find>
-      <find>body</find>
-      <find>getData</find>
-      <find>ajax(</find>
       <find>ajax</find>
+      <find>ajax(</find>
+      <find>body</find>
+      <find>a.cat</find>
+      <find>page_reload</find>
+      <find>home_api</find>
+      <find>getData:</find>
+      <find>getData</find>
+      <find>getMovie</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,10 +178,15 @@
         <option value="$PROJECT_DIR$/data/home_api_post.json" />
         <option value="$PROJECT_DIR$/data/search_api_post/action.json" />
         <option value="$PROJECT_DIR$/js/streamium.min.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/js/streamium.min_v1.js" />
         <option value="$PROJECT_DIR$/js/s3bubble.min.js" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/js/streamium.js" />
+        <option value="$PROJECT_DIR$/js/s.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/i.html" />
+        <option value="$PROJECT_DIR$/i.html" />
       </list>
     </option>
   </component>
@@ -312,23 +282,6 @@
               <item name="vt" type="b2602c69:ProjectViewProjectNode" />
               <item name="vt" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="vt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vt" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vt" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="s3bubble.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="vt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vt" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="streamium_v2.js" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -338,13 +291,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vidtop2" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
     </key>
@@ -371,7 +328,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1507064154467</updated>
-      <workItem from="1507064155743" duration="11768000" />
+      <workItem from="1507064155743" duration="17867000" />
     </task>
     <task id="LOCAL-00001" summary="add crossdomain">
       <created>1507084384524</created>
@@ -401,24 +358,38 @@
       <option name="project" value="LOCAL" />
       <updated>1507085492810</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add crossdomain">
+      <created>1507086143458</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1507086143458</updated>
+    </task>
+    <task id="LOCAL-00006" summary="minify version">
+      <created>1507086672347</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507086672347</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11768000" />
+    <option name="totallyTimeSpent" value="17867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="29" width="1922" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33010754" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -456,7 +427,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add crossdomain" />
-    <option name="LAST_COMMIT_MESSAGE" value="add crossdomain" />
+    <MESSAGE value="minify version" />
+    <option name="LAST_COMMIT_MESSAGE" value="minify version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -485,6 +457,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/search_api_post/action.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1046">
+          <caret line="186" column="8" lean-forward="true" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/s3bubble.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="5293" column="30" lean-forward="false" selection-start-line="5293" selection-start-column="30" selection-end-line="5293" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/doT_preload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/s3bubble_v1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/s3bubble.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1507085413091" expanded="true" signature="12670:12686" ph="..." />
+            <marker date="1507085413091" expanded="true" signature="1347768:1347823" ph="..." />
+            <marker date="1507085413091" expanded="true" signature="1428142:1428149" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/streamium.min_v1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="1533" column="49" lean-forward="true" selection-start-line="1533" selection-start-column="49" selection-end-line="1533" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/streamium.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/streamium_v2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22584">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app_v3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -521,125 +579,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+    <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/search_api_post/action.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1046">
-          <caret line="186" column="8" lean-forward="true" selection-start-line="186" selection-start-column="8" selection-end-line="186" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/streamium.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="110" column="41" lean-forward="false" selection-start-line="110" selection-start-column="41" selection-end-line="110" selection-end-column="41" />
+        <state relative-caret-position="685">
+          <caret line="202" column="18" lean-forward="true" selection-start-line="199" selection-start-column="14" selection-end-line="202" selection-end-column="18" />
           <folding>
-            <element signature="e#21148#22066#0" expanded="false" />
-            <element signature="e#22111#30843#0" expanded="false" />
-            <element signature="e#30969#31244#0" expanded="false" />
-            <element signature="e#31279#41352#0" expanded="false" />
-            <element signature="e#41395#46020#0" expanded="false" />
-            <element signature="e#46281#63523#0" expanded="false" />
-            <element signature="e#63559#68181#0" expanded="false" />
-            <element signature="e#68217#71221#0" expanded="false" />
-            <element signature="e#71258#75798#0" expanded="false" />
-            <element signature="e#75834#81538#0" expanded="false" />
-            <element signature="e#81574#86083#0" expanded="false" />
-            <element signature="e#86119#88009#0" expanded="false" />
-            <element signature="e#88030#89328#0" expanded="false" />
-            <element signature="e#89354#90690#0" expanded="false" />
-            <element signature="e#90716#93243#0" expanded="false" />
-            <element signature="e#93269#99211#0" expanded="false" />
-            <element signature="e#99237#103969#0" expanded="false" />
-            <element signature="e#103995#107565#0" expanded="false" />
-            <element signature="e#107591#115742#0" expanded="false" />
-            <element signature="e#115768#129206#0" expanded="false" />
-            <element signature="e#129232#131400#0" expanded="false" />
-            <element signature="e#131426#134901#0" expanded="false" />
-            <element signature="e#134927#137719#0" expanded="false" />
-            <element signature="e#137745#141389#0" expanded="false" />
-            <element signature="e#178157#181566#0" expanded="false" />
-            <element signature="e#181592#181779#0" expanded="false" />
-            <element signature="e#181875#186515#0" expanded="false" />
-            <element signature="e#181906#186461#0" expanded="false" />
-            <marker date="1507084240345" expanded="true" signature="5368:5420" ph="..." />
-            <marker date="1507084240345" expanded="true" signature="6901:6953" ph="..." />
-            <marker date="1507084240345" expanded="true" signature="15476:15523" ph="..." />
+            <marker date="1507089356643" expanded="true" signature="5354:5406" ph="..." />
+            <marker date="1507089356643" expanded="true" signature="6887:6939" ph="..." />
+            <marker date="1507089356643" expanded="true" signature="15634:15681" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/streamium.min_v1.js">
+    <entry file="file://$PROJECT_DIR$/js/s.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="1533" column="49" lean-forward="true" selection-start-line="1533" selection-start-column="49" selection-end-line="1533" selection-end-column="49" />
+        <state relative-caret-position="633">
+          <caret line="175" column="18" lean-forward="false" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
           <folding>
-            <marker date="1507085375090" expanded="true" signature="5368:5420" ph="..." />
-            <marker date="1507085375090" expanded="true" signature="6901:6953" ph="..." />
-            <marker date="1507085375090" expanded="true" signature="15646:15693" ph="..." />
+            <marker date="1507093468288" expanded="true" signature="5508:5560" ph="..." />
+            <marker date="1507093468288" expanded="true" signature="7042:7094" ph="..." />
+            <marker date="1507093468288" expanded="true" signature="15366:15413" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/s3bubble.min.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="5293" column="30" lean-forward="false" selection-start-line="5293" selection-start-column="30" selection-end-line="5293" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/streamium_v2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-          <folding>
-            <marker date="1507085375000" expanded="true" signature="5368:5420" ph="..." />
-            <marker date="1507085375000" expanded="true" signature="6901:6953" ph="..." />
-            <marker date="1507085375000" expanded="true" signature="15646:15693" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/doT_preload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="339">
+          <caret line="1648" column="42" lean-forward="false" selection-start-line="1648" selection-start-column="42" selection-end-line="1648" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
-          <caret line="106" column="43" lean-forward="true" selection-start-line="106" selection-start-column="43" selection-end-line="106" selection-end-column="43" />
+        <state relative-caret-position="347">
+          <caret line="21" column="72" lean-forward="true" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/s3bubble.js">
+    <entry file="file://$PROJECT_DIR$/i.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="433">
+          <caret line="79" column="113" lean-forward="true" selection-start-line="79" selection-start-column="113" selection-end-line="79" selection-end-column="113" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
