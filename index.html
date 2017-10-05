@@ -78,28 +78,37 @@
     
     <div id='page-container'/>
     
+    <script type='text/javascript' src='./js/lab.js'></script>
+    <script type='text/javascript'>
+     $LAB
+	 .setOptions({
+//	     BasePath:"https://rawgit.com/vidtop/gory.me/master/5.1.1/"
+	     BasePath:""
+	 })
+     	 .script('js/lazyload.min.js')
+	 .script('./js/doT.min.js')
+         .script('./js/fastdom.min.js')
+     	 .script('./js/jquery.js')
+	 .script('./js/blazy.min.js')
+	 .script('./js/jquery-migrate.min.js').wait()
+	 .script('./js/app.js')
+     
+         .script('./js/streamium.js')
+    </script>
 
-    <script type='text/javascript' src='./js/jquery.js'></script>
-    <script type='text/javascript' src='./js/jquery-migrate.min.js'></script>
-    <script type='text/javascript' src='./js/doT.min.js'></script>
-    <script type='text/javascript' src='./js/fastdom.min.js'></script>
-    <script type='text/javascript' src='./js/lazyload.min.js'></script>
-    <script type='text/javascript' src='./js/blazy.min.js'></script>
-    <script type='text/javascript' src='./js/streamium.js'></script> 
-    <script type='text/javascript' src='./js/app.js'></script>
 
-<script type="text/javascript">
-    var loadDeferredStyles = function() {
-        var addStylesNode = document.getElementById("deferred-styles");
-        var replacement = document.createElement("div");
-        replacement.innerHTML = addStylesNode.textContent;
-        document.body.appendChild(replacement)
-        addStylesNode.parentElement.removeChild(addStylesNode);
-    };
-    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-        webkitRequestAnimationFrame || msRequestAnimationFrame;
-    if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-    else window.addEventListener('load', loadDeferredStyles);
-</script>
+    <script type="text/javascript">
+     var loadDeferredStyles = function() {
+         var addStylesNode = document.getElementById("deferred-styles");
+         var replacement = document.createElement("div");
+         replacement.innerHTML = addStylesNode.textContent;
+         document.body.appendChild(replacement)
+         addStylesNode.parentElement.removeChild(addStylesNode);
+     };
+     var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+               webkitRequestAnimationFrame || msRequestAnimationFrame;
+     if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+     else window.addEventListener('load', loadDeferredStyles);
+    </script>
 </body>
 </html>

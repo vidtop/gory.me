@@ -133,13 +133,13 @@ function Streamium() {
             var d = "";
             a[b].paid && (d = a[b].paid.html);
             var e = "";
-            return 0 === b ? e = "far-left" : b === streamium_object.tile_count - 1 && (e = "far-right"), '<div class="tile ' + e + '" data-id="' + a[b].id + '" data-nonce="' + a[b].nonce + '" data-cat="' + c + '"><div class="tile_inner-spacer"><div class="tile_inner tile_inner-home lazy" data-src="' + a[b].tileUrl + '">' + d + '<div id="tile-white-selected-' + c + "-" + a[b].id + '" class="tile-white-selected"></div><div class="content"><div class="overlay" style="background-image: url(' + a[b].tileUrlExpanded + ');"><div class="overlay-gradient"></div><a class="play-icon-wrap hidden-xs" href="' + a[b].link + '"><div class="play-icon-wrap-rel"><div class="play-icon-wrap-rel-ring"></div><span class="play-icon-wrap-rel-play"><i class="fa fa-play fa-1x" aria-hidden="true"></i></span></div></a><div class="overlay-meta hidden-xs"><span class="top-meta-watched">' + (a[b].progressBar > 0 ? a[b].progressBar + "% watched" : "") + "</span><h4>" + a[b].title + "</h4><p>" + a[b].text + '</p><span class="top-meta-reviews">' + a[b].reviews + '</span><a data-id="' + a[b].id + '" data-nonce="' + a[b].nonce + '" data-cat="' + c + '" class="tile_meta_more_info home-arrow hidden-xs"><i class="icon-streamium" aria-hidden="true"></i></a></div></div><div class="streamium-extra-meta">' + a[b].extraMeta + "</div></div></div></div></div>"
+            return 0 === b ? e = "far-left" : b === streamium_object.tile_count - 1 && (e = "far-right"), '<div class="tile ' + e + '" data-id="' + a[b].id + '" data-nonce="' + a[b].nonce + '" data-cat="' + c + '"><div class="tile_inner-spacer"><div class="tile_inner tile_inner-home lazy" data-src="' + a[b].tileUrl + '">' + d + '<div id="tile-white-selected-' + c + "-" + a[b].id + '" class="tile-white-selected"></div><div class="content"><div class="overlay lazy" data-src="' + a[b].tileUrlExpanded + '"><div class="overlay-gradient"></div><a class="play-icon-wrap hidden-xs" href="' + a[b].link + '"><div class="play-icon-wrap-rel"><div class="play-icon-wrap-rel-ring"></div><span class="play-icon-wrap-rel-play"><i class="fa fa-play fa-1x" aria-hidden="true"></i></span></div></a><div class="overlay-meta hidden-xs"><span class="top-meta-watched">' + (a[b].progressBar > 0 ? a[b].progressBar + "% watched" : "") + "</span><h4>" + a[b].title + "</h4><p>" + a[b].text + '</p><span class="top-meta-reviews">' + a[b].reviews + '</span><a data-id="' + a[b].id + '" data-nonce="' + a[b].nonce + '" data-cat="' + c + '" class="tile_meta_more_info home-arrow hidden-xs"><i class="icon-streamium" aria-hidden="true"></i></a></div></div><div class="streamium-extra-meta">' + a[b].extraMeta + "</div></div></div></div></div>"
         },
         staticTileTemplate: function(a, b, c, d) {
             var e = "";
             a[b].paid && (e = a[b].paid.html);
             var f = "";
-            return 1 === d || b % streamium_object.tile_count == 0 ? f = "far-left" : d % streamium_object.tile_count == 0 && (f = "far-right"), '<div class="tile ' + f + '" data-id="' + a[b].id + '" data-nonce="' + a[b].nonce + '" data-cat="' + c + '"><div class="tile_inner-spacer"><div class="tile_inner tile_inner-home lazy" data-src="' + a[b].tileUrl + '">' + e + '<div id="tile-white-selected-' + c + "-" + a[b].id + '" class="tile-white-selected"></div><div class="content"><div class="overlay" style="background-image: url(' + a[b].tileUrlExpanded + ');"><div class="overlay-gradient"></div><a class="play-icon-wrap hidden-xs" href="' + a[b].link + '"><div class="play-icon-wrap-rel"><div class="play-icon-wrap-rel-ring"></div><span class="play-icon-wrap-rel-play"><i class="fa fa-play fa-1x" aria-hidden="true"></i></span></div></a><div class="overlay-meta hidden-xs"><span class="top-meta-watched">' + (a[b].progressBar > 0 ? a[b].progressBar + "% watched" : "") + "</span><h4>" + a[b].title + "</h4><p>" + a[b].text + '</p><span class="top-meta-reviews">' + a[b].reviews + '</span><a data-id="' + a[b].id + '" data-nonce="' + a[b].nonce + '" data-cat="' + c + '" class="tile_meta_more_info home-arrow hidden-xs"><i class="icon-streamium" aria-hidden="true"></i></a></div></div><div class="streamium-extra-meta">' + a[b].extraMeta + "</div></div></div></div></div>"
+            return 1 === d || b % streamium_object.tile_count == 0 ? f = "far-left" : d % streamium_object.tile_count == 0 && (f = "far-right"), '<div class="tile ' + f + '" data-id="' + a[b].id + '" data-nonce="' + a[b].nonce + '" data-cat="' + c + '"><div class="tile_inner-spacer"><div class="tile_inner tile_inner-home lazy" data-src="' + a[b].tileUrl + '">' + e + '<div id="tile-white-selected-' + c + "-" + a[b].id + '" class="tile-white-selected"></div><div class="content"><div class="overlay lazy" data-src="' + a[b].tileUrlExpanded + '"><div class="overlay-gradient"></div><a class="play-icon-wrap hidden-xs" href="' + a[b].link + '"><div class="play-icon-wrap-rel"><div class="play-icon-wrap-rel-ring"></div><span class="play-icon-wrap-rel-play"><i class="fa fa-play fa-1x" aria-hidden="true"></i></span></div></a><div class="overlay-meta hidden-xs"><span class="top-meta-watched">' + (a[b].progressBar > 0 ? a[b].progressBar + "% watched" : "") + "</span><h4>" + a[b].title + "</h4><p>" + a[b].text + '</p><span class="top-meta-reviews">' + a[b].reviews + '</span><a data-id="' + a[b].id + '" data-nonce="' + a[b].nonce + '" data-cat="' + c + '" class="tile_meta_more_info home-arrow hidden-xs"><i class="icon-streamium" aria-hidden="true"></i></a></div></div><div class="streamium-extra-meta">' + a[b].extraMeta + "</div></div></div></div></div>"
         },
         recentTemplate: function(a, b) {
             var e = this,
@@ -202,6 +202,7 @@ function Streamium() {
                     'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
                 },
                 success: function(b) {
+		    console.log('a');
                     if (b.error) return void swal({
                         title: "Error",
                         text: b.message,
@@ -221,7 +222,9 @@ function Streamium() {
                         j = b.title,
                         k = d(f).width(),
                         l = Math.floor(k / 21 * 8);
-                    d(f).find("h2.synopis").text(b.title), d(f).find("div.synopis").html(e), d(f).find("a.synopis").attr("href", b.href), d(f).css("background-image", "url(" + b.bgimage + ")"), "" === b.trailer ? d(f).find("a.synopis-video-trailer").hide() : d(f).find("a.synopis-video-trailer").fadeIn().attr("href", b.href + "?trailer=true");
+                    d(f).find("h2.synopis").text(b.title), d(f).find("div.synopis").html(e), d(f).find("a.synopis").attr("href", b.href)
+		    , d(f).attr("data-src", b.bgimage), d(f).addClass("lazy")
+		    ,"" === b.trailer ? d(f).find("a.synopis-video-trailer").hide() : d(f).find("a.synopis-video-trailer").fadeIn().attr("href", b.href + "?trailer=true");
                     var m = Math.round(d(".cd-main-header").height()),
                         n = Math.round(d(i).outerHeight()) + 4,
                         o = Math.round(d(f).offset().top);
@@ -250,12 +253,13 @@ function Streamium() {
                                 if (l.length > 0)
                                     for (var m = 0; m < l.length; m++) {
                                         var n = i++;
-                                        c.isMobile.any() ? e += '<div class="tile-series"><a class="play-icon-wrap" href="' + l[m].link + "?v=" + n + '"><div class="tile_inner" style="background-image: url(' + l[m].thumbnails + ');"><div class="overlay-gradient"></div><h4><b>S' + l[m].seasons + ":E" + l[m].positions + "</b> " + l[m].titles + "</h4></div></a></div>" : e += '<div class="tile-series"><div class="tile_inner lazy" data-src="' + l[m].thumbnails + '"><div class="overlay-gradient"></div><a class="play-icon-wrap" href="' + l[m].link + "?v=" + n + '"><div class="play-icon-wrap-rel"><div class="play-icon-wrap-rel-ring"></div><span class="play-icon-wrap-rel-play"><i class="fa fa-play fa-1x" aria-hidden="true"></i></span></div></a><h4><b>S' + l[m].seasons + ":E" + l[m].positions + "</b> " + l[m].titles + "</h4></div></div>"
+                                        c.isMobile.any() ? e += '<div class="tile-series"><a class="play-icon-wrap" href="' + l[m].link + "?v=" + n + '"><div class="tile_inner lazy" data-src="' + l[m].thumbnails + '"><div class="overlay-gradient"></div><h4><b>S' + l[m].seasons + ":E" + l[m].positions + "</b> " + l[m].titles + "</h4></div></a></div>" : e += '<div class="tile-series"><div class="tile_inner lazy" data-src="' + l[m].thumbnails + '"><div class="overlay-gradient"></div><a class="play-icon-wrap" href="' + l[m].link + "?v=" + n + '"><div class="play-icon-wrap-rel"><div class="play-icon-wrap-rel-ring"></div><span class="play-icon-wrap-rel-play"><i class="fa fa-play fa-1x" aria-hidden="true"></i></span></div></a><h4><b>S' + l[m].seasons + ":E" + l[m].positions + "</b> " + l[m].titles + "</h4></div></div>"
                                     }
                             }
                         d(h).fadeIn(), d(f).find("h4.series-watched-episode-title").text(j + " Episodes"), !1 === d(g).hasClass("slick-initialized") && (p.html(e), d(g).slick(c.slickSeries), d(g).on("setPosition", function(a, b, e) {
                             d(".lazy").Lazy(c.lazy)
-                        }), d(".lazy").Lazy(c.lazy))
+                        }), d(".lazy").Lazy(c.lazy));
+			if(window._bLazy) window._bLazy.revalidate();
                     })
                 }
             })
@@ -278,9 +282,11 @@ function Streamium() {
                         d("#home-watched").append('<section class="videos"><div class="container-fluid"><div class="row"><div class="col-sm-12"><div class="video-header"><h3>' + h + ' <i class="fa fa-chevron-right" aria-hidden="true"></i> ' + i + '</h3><a class="see-all" href="' + k + '">View all</a></div></div></div><div class="carousels" id="home-slick-' + a + '">' + n + "</div></div></section>" + this.expandedTemplate(j));
                         var p = d("#home-slick-" + a);
                         p.slick(this.slick), p.find(".slick-prev").addClass("hidden"), p.on("setPosition", function(a, b, c) {
-                            d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > streamium_object.tile_count && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(f.lazy)
+                            d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > streamium_object.tile_count && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(f.lazy)//, window._bLazy && window._bLazy.revalidate()
                         }), p.on("afterChange", function(a, b, c) {
-                            d(this).find(".tile").removeClass("far-left").removeClass("far-right"), d(this).find(".slick-active:first").addClass("far-left"), d(this).find(".slick-active:last").addClass("far-right"), 0 === c ? d(this).find(".slick-prev").addClass("hidden") : d(this).find(".slick-prev").removeClass("hidden"), b.currentSlide >= b.slideCount - b.options.slidesToShow ? d(this).find(".slick-next").addClass("hidden") : d(this).find(".slick-next").removeClass("hidden")
+//			    window._bLazy && window._bLazy.revalidate();
+                            d(this).find(".tile").removeClass("far-left").removeClass("far-right"), d(this).find(".slick-active:first").addClass("far-left"), d(this).find(".slick-active:last").addClass("far-right"), 0 === c ? d(this).find(".slick-prev").addClass("hidden") : d(this).find(".slick-prev").removeClass("hidden"), b.currentSlide >= b.slideCount - b.options.slidesToShow ? d(this).find(".slick-next").addClass("hidden") : d(this).find(".slick-next").removeClass("hidden");
+
                         })
                     }
                 }
@@ -339,7 +345,7 @@ function _page_reload() {
         }(this),
             _page_ready(function (a) {
                 function b() {
-                    g = Math.round(a(window).innerWidth() / 21 * 9), a(".streamium-slider .slick-slide").height(g)
+                    g = Math.round(a(window).innerWidth() / 21 * 9), a(".streamium-slider .slick-slide").height(g);
                 }
 
                 var c = Streamium(),
@@ -354,6 +360,7 @@ function _page_reload() {
                     autoplay: !1,
                     adaptiveHeight: !0
                 }), a(".streamium-slider .slick-slide").height(g), b(), window.onresize = b, a("head").append('<style type="text/css">.shiftLeftFirst { transform: translate3d(' + 2 * f + "px, 0, 0);}.shiftRightFirst { transform: translate3d(-" + 2 * f + "px, 0, 0);}.shiftLeft { transform: translate3d(-" + f + "px, 0, 0);}.shiftRight { transform: translate3d(" + f + "px, 0, 0);}</style>"), a('[data-toggle="tooltip"]').tooltip();
+	
                 var h = "home-arrow";
                 c.isMobile.any() && (h = "tile"), a("body").on("click", "." + h, function (b) {
                     b.preventDefault();
@@ -1164,7 +1171,7 @@ function _page_reload() {
             }), a(".cd-search-trigger").on("click", function (a) {
                 a.preventDefault(), c(), b()
             }), a(".cd-overlay").on("swiperight", function () {
-                a(".cd-primary-nav").hasClass("nav-is-visible") && (b(), a(".cd-overlay").removeClass("is-visible"))
+                a(".cd-primary-nav").hasClass("nav-is-visible") && (b(), a(".cd -overlay").removeClass("is-visible"))
             }), a(".nav-on-left .cd-overlay").on("swipeleft", function () {
                 a(".cd-primary-nav").hasClass("nav-is-visible") && (b(), a(".cd-overlay").removeClass("is-visible"))
             }), a(".cd-overlay").on("click", function () {

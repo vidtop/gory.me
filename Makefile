@@ -1,4 +1,4 @@
-ver=5.1.2
+ver=5.1.3
 all: js/streamium.js js/s3bubble.js
 	mkdir -p ${ver}
 	./tools/doT/bin/dot-packer -s ./templates -d ./views
