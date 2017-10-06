@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <base href="./">
-    <!--<base href="https://rawgit.com/vidtop/gory.me/master" target="_blank">-->
+    <base href="./5.1.6.1/">
+    <!-- <base href="https://rawgit.com/vidtop/gory.me/master" target="_blank"> -->
     <!-- Meta Data -->
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -72,7 +72,7 @@
 
     </style>
     <script type='text/javascript'>
-     __my_version = "1.5.6.1";
+     __my_version = "5.1.6.1";
      __app_version = "0.0.1";
      __data_version = "0.0.1";
      __stre_version = "0.0.1";
@@ -85,21 +85,21 @@
      <div id='page-container'/>
      
      <script type='text/javascript' src='./js/lab.min.js'></script>
-    <script type='text/javascript'>
-     $LAB
-	 .setOptions({
-//	     BasePath:"https://rawgit.com/vidtop/gory.me/master/" + __my_version + "/"
-	     BasePath:""
-	 })
-     	 .script('./js/lazyload.min.js')
-	 .script('./js/doT.min.js')
-         .script('./js/fastdom.min.js')
-     	 .script('./js/jquery.js')
-	 .script('./js/blazy.min.js')
-	 .script('./js/jquery-migrate.min.js').wait()
-	 .script('./js/app' + __app_version +'.js')
-         .script('./js/streamium_' + __stre_version + '.js')
-    </script>
+     <script type='text/javascript'>
+      $LAB
+	  .setOptions({
+	      /* BasePath:"https://rawgit.com/vidtop/gory.me/master/" + __my_version + "/"*/
+	      BasePath:"./" + __my_version + "/"
+	  })
+     	  .script('./js/lazyload.min.js')
+	  .script('./js/doT.min.js')
+          .script('./js/fastdom.min.js')
+     	  .script('./js/jquery.js')
+	  .script('./js/blazy.min.js')
+	  .script('./js/jquery-migrate.min.js').wait()
+	  .script('./js/app_' + __app_version +'.js')
+          .script('./js/streamium_' + __stre_version + '.js')
+     </script>
 
 
     <script type="text/javascript">

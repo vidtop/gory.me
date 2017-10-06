@@ -1,6 +1,6 @@
 // Location polyfill for ie, ff < 21.0 and safari
 __data_api = "data_" + __data_version;
-__views_api = "views_" + __views_version
+__views_api = "views_" + __views_version;
 if (typeof window.location.origin === "undefined") {
     window.location.origin = window.location.protocol + "//" + window.location.host;
 }
@@ -387,3 +387,4 @@ var spaRouter = jQuery.extend({}, router, {
 if (window.location.hash == "" || window.location.hash == "#")
     window.location.hash = "#home";
 
+spaRouter.init();
