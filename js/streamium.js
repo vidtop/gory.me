@@ -111,6 +111,7 @@ function Streamium() {
 		break;
 	    case 'streamium_get_dynamic_content':
 	    case 'streamium_get_dynamic_series_content':
+	    case 'streamium_get_more_content':
 		_method = 'get';
 		_url = [streamium_object.ajax_url, a.action, a.postId].join('/') + '.json';
 	    }
@@ -1275,20 +1276,23 @@ function _page_reload() {
                 b.preventDefault(), a(".streamium-review-panel-content").empty(), a(".streamium-review-panel-header h1").empty();
                 var c = a(this).attr("data-id"),
                     d = a(this).attr("data-nonce");
-                a.ajax({
-                    url: streamium_object.ajax_url,
-                    type: "post",
-                    dataType: "json",
-                    data: {
+		var _data = {
                         action: "streamium_get_reviews",
                         post_id: c,
                         nonce: d
-                    },
+                };
+                a.ajax({
+                    url: [streamium_object.ajax_url, _data.action, _data.post_id].join('/') + '.json',
+//                    type: "post",
+		    type: "get",
+                    dataType: "json",
+                    data: _data,
                     crossDomain: true,
                     headers : {
                         'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
                     },
                     success: function (b) {
+			console.log(b);
                         if (b.error) return void swal({
                             title: "Error",
                             text: b.message,
