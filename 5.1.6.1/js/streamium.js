@@ -155,7 +155,7 @@ function Streamium() {
             d("#recently-watched").append('<section class="videos"><div class="container-fluid"><div class="row"><div class="col-sm-12"><div class="video-header"><h3>Recently Watched</h3></div></div></div><div class="carousels" id="recently">' + h + "</div></div></section>" + this.expandedTemplate("recent"));
             var j = d("#recently");
             j.slick(this.slick), j.find(".slick-prev").addClass("hidden"), j.on("setPosition", function(a, b, c) {
-                d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > 6 && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(e.lazy)
+                d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > 6 && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(e.lazy),window._bLazy &&  window._bLazy.revalidate()
             }), j.on("afterChange", function(a, b, c) {
                 d(this).find(".tile").removeClass("far-left").removeClass("far-right"), d(this).find(".slick-active:first").addClass("far-left"), d(this).find(".slick-active:last").addClass("far-right"), 0 === c ? d(this).find(".slick-prev").addClass("hidden") : d(this).find(".slick-prev").removeClass("hidden"), b.currentSlide >= b.slideCount - b.options.slidesToShow ? d(this).find(".slick-next").addClass("hidden") : d(this).find(".slick-next").removeClass("hidden")
             }), b(!0)
@@ -258,8 +258,8 @@ function Streamium() {
                                     }
                             }
                         d(h).fadeIn(), d(f).find("h4.series-watched-episode-title").text(j + " Episodes"), !1 === d(g).hasClass("slick-initialized") && (p.html(e), d(g).slick(c.slickSeries), d(g).on("setPosition", function(a, b, e) {
-                            d(".lazy").Lazy(c.lazy)
-                        }), d(".lazy").Lazy(c.lazy));
+                            d(".lazy").Lazy(c.lazy),window._bLazy &&  window._bLazy.revalidate()
+                        }), d(".lazy").Lazy(c.lazy),window._bLazy &&  window._bLazy.revalidate());
 			if(window._bLazy) window._bLazy.revalidate();
                     })
                 }
@@ -283,7 +283,7 @@ function Streamium() {
                         d("#home-watched").append('<section class="videos"><div class="container-fluid"><div class="row"><div class="col-sm-12"><div class="video-header"><h3>' + h + ' <i class="fa fa-chevron-right" aria-hidden="true"></i> ' + i + '</h3><a class="see-all" href="' + k + '">View all</a></div></div></div><div class="carousels" id="home-slick-' + a + '">' + n + "</div></div></section>" + this.expandedTemplate(j));
                         var p = d("#home-slick-" + a);
                         p.slick(this.slick), p.find(".slick-prev").addClass("hidden"), p.on("setPosition", function(a, b, c) {
-                            d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > streamium_object.tile_count && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(f.lazy)
+                            d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > streamium_object.tile_count && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(f.lazy),window._bLazy &&  window._bLazy.revalidate()
                         }), p.on("afterChange", function(a, b, c) {
                             d(this).find(".tile").removeClass("far-left").removeClass("far-right"), d(this).find(".slick-active:first").addClass("far-left"), d(this).find(".slick-active:last").addClass("far-right"), 0 === c ? d(this).find(".slick-prev").addClass("hidden") : d(this).find(".slick-prev").removeClass("hidden"), b.currentSlide >= b.slideCount - b.options.slidesToShow ? d(this).find(".slick-next").addClass("hidden") : d(this).find(".slick-next").removeClass("hidden");
 
@@ -309,7 +309,7 @@ function Streamium() {
                     d("#custom-watched").append('<section class="videos"><div class="container-fluid"><div class="row"><div class="col-sm-12"><div class="video-header"><h3>' + k + '</h3><a class="see-all" href="' + j + '">View all</a></div></div></div><div class="carousels" id="custom-slick-' + a + '">' + n + "</div></div></section>" + this.expandedTemplate(h));
                     var o = d("#custom-slick-" + a);
                     o.slick(this.slick), o.find(".slick-prev").addClass("hidden"), o.on("setPosition", function(a, b, c) {
-                        d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > 6 && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(f.lazy)
+                        d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > 6 && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(f.lazy),window._bLazy &&  window._bLazy.revalidate()
                     }), o.on("afterChange", function(a, b, c) {
                         d(this).find(".tile").removeClass("far-left").removeClass("far-right"), d(this).find(".slick-active:first").addClass("far-left"), d(this).find(".slick-active:last").addClass("far-right"), 0 === c ? d(this).find(".slick-prev").addClass("hidden") : d(this).find(".slick-prev").removeClass("hidden"), b.currentSlide >= b.slideCount - b.options.slidesToShow ? d(this).find(".slick-next").addClass("hidden") : d(this).find(".slick-next").removeClass("hidden")
                     })
@@ -424,7 +424,7 @@ function _page_reload() {
                     if (b.error) return void console.log("Error: ", b.message);
                     c.homeTemplate(b, function () {
                         var b = a(".carousels").height() / 2;
-                        a(".video-header").height(b), a(".streamium-loading").fadeOut(), a(".lazy").Lazy(c.lazy)
+                        a(".video-header").height(b), a(".streamium-loading").fadeOut(), a(".lazy").Lazy(c.lazy),window._bLazy &&  window._bLazy.revalidate()
                     })
                 }), streamium_object.is_home && (c.getData({
                     action: "recently_watched_api_post",
@@ -448,7 +448,7 @@ function _page_reload() {
                     if (b.error) return void console.log("Error: ", b.message);
                     b.id = "tax-watched", c.staticTemplate(b, function () {
                         var b = a(".tile").height() / 2;
-                        a(".static-row").css("margin-top", b + "px"), a(".lazy").Lazy(c.lazy)
+                        a(".static-row").css("margin-top", b + "px"), a(".lazy").Lazy(c.lazy), window._bLazy &&  window._bLazy.revalidate()
                     })
                 }), a(".tax-search-filter").on("click", function (b) {
                     b.preventDefault();
@@ -461,7 +461,7 @@ function _page_reload() {
                         if (b.error) return void console.log("Error: ", b.message);
                         b.id = "tax-watched", c.staticTemplate(b, function () {
                             var b = a(".tile").height() / 2;
-                            a(".static-row").css("margin-top", b + "px"), a(".lazy").Lazy(c.lazy)
+                            a(".static-row").css("margin-top", b + "px"), a(".lazy").Lazy(c.lazy), window._bLazy &&  window._bLazy.revalidate()
                         })
                     })
                 })), streamium_object.is_search && (c.getData({
@@ -472,7 +472,7 @@ function _page_reload() {
                     if (b.error) return console.log("Error: ", b.message), void a("#search-watched").html('<div class="container-fluid"><div class="row"><div class="col-sm-12">Error: ' + b.message + "...</div></div></div>");
                     b.id = "search-watched", c.staticTemplate(b, function () {
                         var b = a(".tile").height() / 2;
-                        a(".static-row").css("margin-top", b + "px"), a(".lazy").Lazy(c.lazy)
+                        a(".static-row").css("margin-top", b + "px"), a(".lazy").Lazy(c.lazy),window._bLazy &&  window._bLazy.revalidate()
                     })
                 }), a(".search-search-filter").on("click", function (b) {
                     b.preventDefault();
@@ -487,7 +487,7 @@ function _page_reload() {
                         if (b.error) return console.log("Error: ", b.message), void a("#search-watched").html('<div class="container-fluid"><div class="row"><div class="col-sm-12">Error: ' + b.message + "...</div></div></div>");
                         b.id = "search-watched", c.staticTemplate(b, function () {
                             var b = a(".tile").height() / 2;
-                            a(".static-row").css("margin-top", b + "px"), a(".lazy").Lazy(c.lazy)
+                            a(".static-row").css("margin-top", b + "px"), a(".lazy").Lazy(c.lazy),window._bLazy &&  window._bLazy.revalidate()
                         })
                     })
                 }))
@@ -1582,7 +1582,7 @@ function _page_reload() {
                 var b = !a(".streamium-drop-dropdown").hasClass("dropdown-is-active");
                 a(".streamium-drop-dropdown").toggleClass("dropdown-is-active", b), a(".streamium-drop-dropdown-trigger").toggleClass("dropdown-is-active", b), b || a(".streamium-drop-dropdown").one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", function () {
                     a(".move-out").removeClass("move-out"), a(".is-active").removeClass("is-active")
-                })
+                });
             }
 
             a(".streamium-drop-dropdown-trigger").on("click", function (a) {

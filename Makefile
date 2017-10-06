@@ -1,6 +1,6 @@
 ver=5.1.6.1
 app_v=0.0.1
-stre_v=0.0.1
+stre_v=0.0.2
 data_v=0.0.1
 views_v=0.0.1
 all: js/streamium.js js/s3bubble.js
