@@ -282,9 +282,8 @@ function Streamium() {
                         d("#home-watched").append('<section class="videos"><div class="container-fluid"><div class="row"><div class="col-sm-12"><div class="video-header"><h3>' + h + ' <i class="fa fa-chevron-right" aria-hidden="true"></i> ' + i + '</h3><a class="see-all" href="' + k + '">View all</a></div></div></div><div class="carousels" id="home-slick-' + a + '">' + n + "</div></div></section>" + this.expandedTemplate(j));
                         var p = d("#home-slick-" + a);
                         p.slick(this.slick), p.find(".slick-prev").addClass("hidden"), p.on("setPosition", function(a, b, c) {
-                            d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > streamium_object.tile_count && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(f.lazy)//, window._bLazy && window._bLazy.revalidate()
+                            d(this).find(".slick-active:first").addClass("far-left"), b.slideCount > streamium_object.tile_count && d(this).find(".slick-active:last").addClass("far-right"), d(".lazy").Lazy(f.lazy)
                         }), p.on("afterChange", function(a, b, c) {
-//			    window._bLazy && window._bLazy.revalidate();
                             d(this).find(".tile").removeClass("far-left").removeClass("far-right"), d(this).find(".slick-active:first").addClass("far-left"), d(this).find(".slick-active:last").addClass("far-right"), 0 === c ? d(this).find(".slick-prev").addClass("hidden") : d(this).find(".slick-prev").removeClass("hidden"), b.currentSlide >= b.slideCount - b.options.slidesToShow ? d(this).find(".slick-next").addClass("hidden") : d(this).find(".slick-next").removeClass("hidden");
 
                         })
@@ -353,14 +352,25 @@ function _page_reload() {
                     e = Math.round(a(".container-fluid").width() / d),
                     f = e / 2,
                     g = Math.round(a(window).innerWidth() / 21 * 9);
-                a(".streamium-slider .slick-slide").height(g), a(".streamium-slider").slick({
+                a(".streamium-slider .slick-slide").height(g),
+		a(".streamium-slider").slick({
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     dots: !1,
                     autoplay: !1,
                     adaptiveHeight: !0
-                }), a(".streamium-slider .slick-slide").height(g), b(), window.onresize = b, a("head").append('<style type="text/css">.shiftLeftFirst { transform: translate3d(' + 2 * f + "px, 0, 0);}.shiftRightFirst { transform: translate3d(-" + 2 * f + "px, 0, 0);}.shiftLeft { transform: translate3d(-" + f + "px, 0, 0);}.shiftRight { transform: translate3d(" + f + "px, 0, 0);}</style>"), a('[data-toggle="tooltip"]').tooltip();
-	
+                }),
+		a(".streamium-slider .slick-slide").height(g), b(), window.onresize = b, a("head").append('<style type="text/css">.shiftLeftFirst { transform: translate3d(' + 2 * f + "px, 0, 0);}.shiftRightFirst { transform: translate3d(-" + 2 * f + "px, 0, 0);}.shiftLeft { transform: translate3d(-" + f + "px, 0, 0);}.shiftRight { transform: translate3d(" + f + "px, 0, 0);}</style>"), a('[data-toggle="tooltip"]').tooltip();
+		a(".streamium-slider").on('afterChange', function() {
+		    (function(){
+			new Blazy({ 
+			selector: '.streamium-slider .slick-slide.slick-active' // all images
+			})
+		    })();
+		    // activeSlide.next().find('img[data-srcset]').lazyLoadXT({
+		    // 	show: true
+		    // });
+		});
                 var h = "home-arrow";
                 c.isMobile.any() && (h = "tile"), a("body").on("click", "." + h, function (b) {
                     b.preventDefault();
