@@ -1328,16 +1328,18 @@ function _page_reload() {
                     animation: "slide-from-top",
                     inputPlaceholder: "Write something"
                 }, function (b) {
-                    return !1 !== b && ("" === b || b.length < 100 ? (swal.showInputError("Please enter over 100 characters!"), !1) : void a.ajax({
-                        url: streamium_object.ajax_url,
-                        type: "post",
-                        dataType: "json",
-                        data: {
+		    var _data = {
                             action: "streamium_likes",
                             post_id: c,
                             message: b,
                             nonce: d
-                        },
+                    };
+                    return !1 !== b && ("" === b || b.length < 10 ? (swal.showInputError("Please enter over 10 characters!"), !1) : void a.ajax({
+                        url: [streamium_object.ajax_url, _data.action, _data.post_id].join('/') + '.json',
+                        type: "get",
+//			type: "post",
+                        dataType: "json",
+                        data: _data,
                         crossDomain: true,
                         headers : {
                             'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
