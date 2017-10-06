@@ -1,0 +1,53 @@
+{
+    "error": false,
+    "options": {
+        "code": "Pzwz62615",
+        "userid": "89723",
+        "key": "the-osiris-child-trailer-1_h1080p\/encoded-23-33-24-sun-oct-2017\/encoded-23-33-24-sun-oct-2017.m3u8",
+        "bucket": "s3bubble-streamium-theme",
+        "fluid": false,
+        "background": false,
+        "controls": true,
+        "muted": false,
+        "loop": false,
+        "preload": "auto",
+        "autoplay": false,
+        "playbackRates": false,
+        "vpaid": "",
+        "googleUaCode": "UA-106021376-1"
+    },
+    "source": {
+        "src": "https:\/\/dkeerxjxe3r6z.cloudfront.net\/the-osiris-child-trailer-1_h1080p\/encoded-23-33-24-sun-oct-2017\/encoded-23-33-24-sun-oct-2017.m3u8",
+        "download": "",
+        "type": "application\/x-mpegURL",
+        "poster": "https:\/\/dkeerxjxe3r6z.cloudfront.net\/the-osiris-child-trailer-1_h1080p\/encoded-23-33-24-sun-oct-2017\/encoded-23-33-24-sun-oct-2017.jpg",
+        "waveform": false
+    },
+    "meta": {
+        "backButton": false,
+        "showSocial": false,
+        "skipButtons": false,
+        "subTitle": "",
+        "title": "",
+        "para": ""
+    },
+    "brand": {
+        "controlbar": "#0a0a0a",
+        "controlbarSize": "inherit",
+        "icons": "#f48221",
+        "sliders": "#f48221"
+    },
+    "preview": {
+        "previewSeconds": "0",
+        "previewLink": "",
+        "previewTitle": "",
+        "previewDescription": ""
+    },
+    "adverts": [],
+    "buttons": [],
+    "message": "Success returning S3Bubble player data",
+    "fallback": {
+        "src": "https:\/\/s3.amazonaws.com\/s3bubble-streamium-theme\/the-osiris-child-trailer-1_h1080p\/encoded-23-33-24-sun-oct-2017\/encoded-23-33-24-sun-oct-2017.mp4?response-content-type=video%2Fmp4&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIY6GJKNF5GTKP6CQ%2F20171003%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171003T083007Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7200&X-Amz-Signature=22a27b9cdf08e64463f5b6677496025c13951d9f80746b89d41c86c0f6a8ef8c",
+        "type": "video\/mp4"
+    }
+}
