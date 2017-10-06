@@ -1,6 +1,5 @@
 // Location polyfill for ie, ff < 21.0 and safari
 __data_api = "data_" + __data_version;
-__views_api = "views_" + __views_version
 if (typeof window.location.origin === "undefined") {
     window.location.origin = window.location.protocol + "//" + window.location.host;
 }
@@ -18,7 +17,7 @@ var utils = {
         // var template = Handlebars.compile(templateScript);
 	console.log('render:' + templateId);
 	if(!(window.render && window.render[templateId])) {
-	    LazyLoad.js([ __views_api + '/' + templateId + '.js'], function(){
+	    LazyLoad.js(['views/' + templateId + '.js'], function(){
 		// Empty the container and append new content
 		jQuery("#page-container").empty();
 		// Empty the container and append new content
